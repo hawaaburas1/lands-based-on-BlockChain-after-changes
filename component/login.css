@@ -1,0 +1,55 @@
+.container6{
+     width: 800px;
+     height: 560px;
+     background-color: white;
+     flex-direction: column;
+     box-shadow: 0 0.188em 1.550em cornflowerblue;
+     align-items: center;
+     padding: 10%;
+     margin: 40px;
+     border-radius: 10px;
+     position: relative;
+     left: 170px;
+}
+.child6 h2{
+     font-weight: bold;
+     color: orange;
+     margin: 10px;
+     font-size: 28px;
+     position: relative;
+     top:-70px;
+     left:160px;
+     font-style: italic;
+
+}
+.container6 h3{
+     color: cornflowerblue;
+     font-size: 25px;
+     font-style: italic;
+     font-weight: bold;
+     margin: 10px;
+     text-shadow:0 0.188em 1.550em orange ;
+
+}
+.write2 p{
+font-weight: bold;
+font-size: 20px;
+margin: 10px;
+font-style: italic;
+
+}
+.login-button1{
+     width: 30%;
+     background-color: black;
+     color: white;
+     padding: 10px;
+     border-radius: 10px;
+     margin: 12px;
+     font-size: 18px;
+}
+.login-button1 a li{
+     color: white;    
+     font-size: 18px;
+     text-decoration: none;
+     list-style: none;
+}

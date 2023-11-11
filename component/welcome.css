@@ -1,0 +1,88 @@
+*{margin: 0;
+box-sizing: border-box;
+}
+.container{
+     width: 800px;
+     height: 560px;
+     background-color: white;
+     flex-direction: column;
+     box-shadow: 0 0.188em 1.550em cornflowerblue;
+     align-items: center;
+     padding: 10%;
+     margin: 40px;
+     border-radius: 10px;
+     }
+.child h2{
+     color:black;
+     text-align: center;
+     position: relative;
+     top:-60px;
+     font-style: italic;
+
+}
+.container h4{
+     font-size: 29px;
+     font-weight: bold;
+     color: orange;
+     position: relative;
+     left: 200px;
+     top: 40px;
+     text-shadow:0 0.188em 1.550em orange ;
+
+}
+.write{
+background-color: black;
+margin: 10px;
+padding: 6%;
+font-family: 'Courier New', Courier, monospace;
+display: flex;
+border-radius: 20px;
+font-size: 18px;
+font-weight: bold;
+color: aliceblue;
+word-spacing:2px;
+box-shadow: 0 0.188em 1.550em rgb(187, 190, 198);
+}
+
+.container Button{
+     padding: 20px;
+     font-size: 18px;
+     background-color: cornflowerblue;
+     color: black;
+     border-radius: 10px;
+    position: relative;
+    right:-100px;
+   cursor: pointer;
+    font-weight: bold;
+}
+.ii{
+     position: relative;
+     left: 720px;
+     top:-400px;
+     border-radius: 300px;
+     box-shadow: 0 0.188em 1.550em cornflowerblue;
+     animation: mover 1s infinite alternate;
+     transition: .3s ease all;
+    
+
+}
+@keyframes mover {
+     0%
+     {transform: translateY(0px);}
+     100%{transform: translateY(10px);}
+     
+}
+.login-button:hover{
+     box-shadow: 0 0.188em 1.550em orange;
+}
+.con1{
+     position: relative;
+     top:-780px;
+     left: 700px;
+     color: orange;
+     font-size: 24px;
+     font-weight: bold;
+     font-style: italic;
+     text-shadow:0 0.188em 1.550em orange ;
+
+}

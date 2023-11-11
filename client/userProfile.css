@@ -1,0 +1,53 @@
+*{   margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+.cover1{
+     position: relative;
+     left:400px;
+     margin: 4px;
+     background-color: white;
+     width:35em;
+     height: 35em;
+     position: relative;
+     border-radius: 1em;
+     box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+
+}
+.gg1{
+     border-radius: 100%;
+     box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+margin: 5px;
+}
+.edit{background-color: cornflowerblue;width: 30%;font-size: 18px;margin: 10px;padding: 15px;font-weight: bold;}
+.cover1 h3{font-size: 25px;
+     position: relative;
+     top:30px;
+     text-shadow:0 0.188em 1.550em rgb(12, 12, 243) ;
+}
+.ch{
+     display: none;
+}
+.contect{
+     position: relative;
+     left:-500px;
+
+}
+input::placeholder{
+     font-size: 19px;
+     font-weight: bold;
+     font-style: italic;
+}
+input{
+     font-size: 16px;
+     font-weight: bold;
+     box-shadow:0 0.188em 1.550em rgb(95, 192, 95)
+
+}
+.edit:hover{box-shadow:0 0.188em 1.550em rgb(156, 156, 156) ;
+     cursor: pointer;}
+     
